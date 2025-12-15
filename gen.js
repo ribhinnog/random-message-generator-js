@@ -58,7 +58,7 @@ function generateSentence() {
     // Grab the current piece of the skeleton
 
     if (typeof part === "string") {
-      // If the piece is a string, it’s fixed text (words, spaces, punctuation)
+      // If the piece is a string, it’s fixed text
       result += part;
       // Append it directly to the sentence
     } else {
@@ -78,6 +78,5 @@ function generateSentence() {
   return result;
   // Return the fully assembled sentence
 }
-
 
 console.log(generateSentence());
